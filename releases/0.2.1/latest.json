@@ -1,0 +1,11 @@
+{
+    "schema":  1,
+    "packageName":  "it.pianoled.app",
+    "versionCode":  3,
+    "versionName":  "0.2.1",
+    "minSdk":  26,
+    "size":  49568,
+    "sha256":  "644ea95519e43f7b4c06e245435b8860f9648c8f277a19c1d4f7444baf72816f",
+    "apkUrl":  "https://github.com/almahub/pianoled/releases/download/v0.2.1/PianoLed.apk",
+    "releaseNotes":  "Aggiornamenti dall\u0027app con notifiche, download verificato e conferma Android. Migliorate le istruzioni e la gestione delle notifiche disattivate."
+}
