@@ -8,7 +8,7 @@ Dalla versione 0.2.0, apri **Aggiornamenti** nell'app e abilita le notifiche. Il
 
 **Aggiorna VERSIONE** scarica l'APK e ne verifica integrita, versione e firma. Android richiede conferma prima di installare. Se richiesto, consenti a PianoLed di installare app, torna alla schermata e premi **Installa**.
 
-La versione 0.1.0 richiede una prima installazione manuale della 0.2.0 per abilitare questa funzione.
+La versione 0.1.0 richiede una prima installazione manuale dell'APK recente per abilitare questa funzione. Dalla 0.3.0, la schermata Aggiornamenti si trova in **Impostazioni**.
 
 ## Novità 0.3.0
 
