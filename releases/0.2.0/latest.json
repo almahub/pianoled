@@ -1,0 +1,11 @@
+{
+    "schema":  1,
+    "packageName":  "it.pianoled.app",
+    "versionCode":  2,
+    "versionName":  "0.2.0",
+    "minSdk":  26,
+    "size":  49568,
+    "sha256":  "73e7c37f08fdafbfc2bc37ea650efe3486231668debfc08147e977fad7173af1",
+    "apkUrl":  "https://github.com/almahub/pianoled/releases/download/v0.2.0/PianoLed.apk",
+    "releaseNotes":  "Aggiunti aggiornamenti dall\u0027app, notifiche e installazione verificata degli APK."
+}

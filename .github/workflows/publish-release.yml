@@ -1,0 +1,55 @@
+name: Publish Android update
+on:
+  push:
+    branches: [main]
+    paths: ['releases/**', '.github/workflows/publish-release.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: pianoled-releases
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate and publish signed artifacts
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        shell: python
+        run: |
+          import hashlib, json, pathlib, re, subprocess
+          def gh(*args, **kw):
+              return subprocess.run(['gh', *args], check=True, **kw)
+          releases=[]
+          for path in pathlib.Path('releases').glob('*/latest.json'):
+              data=json.loads(path.read_text())
+              version=data['versionName']
+              assert re.fullmatch(r'\d+\.\d+\.\d+', version)
+              assert path.parent.name==version
+              assert data['schema']==1 and data['packageName']=='it.pianoled.app'
+              assert isinstance(data['versionCode'],int) and data['versionCode']>0
+              apk=path.parent/'PianoLed.apk'
+              assert apk.stat().st_size==data['size']
+              assert hashlib.sha256(apk.read_bytes()).hexdigest()==data['sha256']
+              assert data['apkUrl']==f'https://github.com/almahub/pianoled/releases/download/v{version}/PianoLed.apk'
+              releases.append((data['versionCode'],data,path,apk))
+          assert len({r[0] for r in releases})==len(releases), 'Duplicate versionCode'
+          existing=json.loads(subprocess.check_output(['gh','api','repos/{owner}/{repo}/releases','--paginate','--slurp']))
+          published={r['tag_name']:r for page in existing for r in page}
+          highest=max([int(a['tag_name'].split('.')[0][1:])*1000000+int(a['tag_name'].split('.')[1])*1000+int(a['tag_name'].split('.')[2]) for a in published.values() if not a['draft'] and re.fullmatch(r'v\d+\.\d+\.\d+',a['tag_name'])] or [0])
+          for code,data,path,apk in sorted(releases):
+              tag='v'+data['versionName']
+              if tag in published and not published[tag]['draft']:
+                  continue
+              numeric=sum(int(v)*m for v,m in zip(data['versionName'].split('.'),[1000000,1000,1]))
+              assert numeric>highest, 'Refusing to publish older version as latest'
+              notes=path.parent/'notes.txt'
+              notes.write_text(data.get('releaseNotes',''),encoding='utf-8')
+              if tag not in published:
+                  gh('release','create',tag,'--draft','--target','main','--title','PianoLed '+data['versionName'],'--notes-file',str(notes))
+              gh('release','upload',tag,str(apk),str(path),'--clobber')
+              gh('release','edit',tag,'--draft=false','--latest')
+              highest=numeric
