@@ -5,7 +5,7 @@
     "versionName":  "0.3.0",
     "minSdk":  26,
     "size":  65952,
-    "sha256":  "232042fcb442f57ab79c3c9b043a606274e0d1e3857d7cfdaaeac2904102532a",
+    "sha256":  "e070f8298c052fc288e271e098bcc1e3772e67591f49e840bf1ae6096f09e1b5",
     "apkUrl":  "https://github.com/almahub/pianoled/releases/download/v0.3.0/PianoLed.apk",
     "releaseNotes":  "Nuovo Player con tema scuro, piano roll e tastiera da 88 tasti, zoom, vista espansa e modalita Semplice/Studio. Layout adattivo per telefono e tablet. Importazione MIDI formato 0/1 e JSON offline, preferiti e raccolte playlist. Selezione Sinistra/Destra/Entrambe per audio, note e LED. Colori azzurro/arancione personalizzabili, luminosita e test degli 88 tasti. Connessione e aggiornamenti nella sezione Impostazioni.\nLive MIDI USB e Attendi nota restano una fase successiva, dopo la verifica di compatibilita del telefono e del Roland. Nessun cambiamento firmware."
 }
