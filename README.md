@@ -10,7 +10,18 @@ Dalla versione 0.2.0, apri **Aggiornamenti** nell'app e abilita le notifiche. Il
 
 La versione 0.1.0 richiede una prima installazione manuale della 0.2.0 per abilitare questa funzione.
 
-## Questo repository
+## Novità 0.3.0
+
+Player scuro con piano roll, tastiera, zoom e vista espansa; modalità Semplice
+e Studio; layout adattivo per telefono e tablet. Importazione offline di file
+MIDI formato 0/1 e JSON, preferiti e raccolte playlist. Selezione delle mani
+per audio e LED, colori azzurro/arancione personalizzabili, luminosità e test
+sequenziale degli 88 tasti. Connessione e aggiornamenti sono in Impostazioni.
+
+Live MIDI USB e Attendi nota sono previsti dopo la verifica di compatibilità
+del telefono e del pianoforte. Non sono attivi in questa versione.
+
+## Contenuti pubblicati
 
 Contiene solo APK, metadati e automazione di distribuzione. Sorgenti, brani personali, credenziali e chiave di firma rimangono sul PC dello sviluppatore.
 
