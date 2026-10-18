@@ -1,0 +1,11 @@
+{
+    "schema":  1,
+    "packageName":  "it.pianoled.app",
+    "versionCode":  5,
+    "versionName":  "0.4.0",
+    "minSdk":  26,
+    "size":  65952,
+    "sha256":  "bcf0f02d40f31e88fbfdfe84071fa0e57fb2b627be565d6b651076f5f2f3eb24",
+    "apkUrl":  "https://github.com/almahub/pianoled/releases/download/v0.4.0/PianoLed.apk",
+    "releaseNotes":  "Supporto matrice Do1-Si1: 120 LED, anticipo di due secondi, limite luminosita 15%, test del modulo. Rimane supportata la striscia Android v2 da 176 LED."
+}

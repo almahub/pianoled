@@ -10,7 +10,19 @@ Dalla versione 0.2.0, apri **Aggiornamenti** nell'app e abilita le notifiche. Il
 
 La versione 0.1.0 richiede una prima installazione manuale dell'APK recente per abilitare questa funzione. Dalla 0.3.0, la schermata Aggiornamenti si trova in **Impostazioni**.
 
-## Novità 0.3.0
+## Novità 0.4.0
+
+Compatibilità con il firmware Android matrice: primo modulo Do1–Si1,
+12 colonne da 10 LED. Riconoscimento automatico del profilo della scheda,
+luminosità limitata al 15% e prova del modulo in LED Studio. Le note scendono
+con due secondi di anticipo; l'audio parte dopo circa 2,5 secondi di preparazione.
+Le note fuori dal modulo continuano a suonare sul telefono. Rimane supportato
+il firmware Android v2 per la striscia da 176 LED.
+
+Il firmware matrice si installa separatamente via USB: l'aggiornamento APK
+non modifica la scheda. L'estensione a 850 LED non è attivata.
+
+## Funzioni del Player e Studio
 
 Player scuro con piano roll, tastiera, zoom e vista espansa; modalità Semplice
 e Studio; layout adattivo per telefono e tablet. Importazione offline di file
