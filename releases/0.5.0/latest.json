@@ -1,0 +1,11 @@
+{
+    "schema":  1,
+    "packageName":  "it.pianoled.app",
+    "versionCode":  6,
+    "versionName":  "0.5.0",
+    "minSdk":  26,
+    "size":  74144,
+    "sha256":  "ea7ff3966412be8496a7d8185a479725ea7769ba2b7b9f1369ea73f3514b19d3",
+    "apkUrl":  "https://github.com/almahub/pianoled/releases/download/v0.5.0/PianoLed.apk",
+    "releaseNotes":  "Live MIDI: ricerca e collegamento di tastiere Bluetooth MIDI compatibili, permessi Dispositivi nelle vicinanze, stato e contatore dati ricevuti. Gestione timeout, scollegamento e background. Nessun aggiornamento firmware ESP32 necessario."
+}

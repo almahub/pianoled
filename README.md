@@ -10,7 +10,25 @@ Dalla versione 0.2.0, apri **Aggiornamenti** nell'app e abilita le notifiche. Il
 
 La versione 0.1.0 richiede una prima installazione manuale dell'APK recente per abilitare questa funzione. Dalla 0.3.0, la schermata Aggiornamenti si trova in **Impostazioni**.
 
-## Novità 0.4.0
+## Novità 0.5.0
+
+In **Live MIDI** puoi cercare e collegare tastiere Bluetooth MIDI compatibili,
+compreso Roland FP-30, concedendo il permesso **Dispositivi nelle vicinanze**.
+La ricerca dura 15 secondi; scegli **Collega** accanto alla tastiera e controlla
+il contatore dei dati MIDI ricevuti. **Scollega** chiude la connessione;
+il collegamento viene chiuso anche quando l'app va in background.
+
+Sul Roland FP-30: FUNCTION + La0 attiva Bluetooth; FUNCTION + Si0 seleziona
+MIDI. Collega dalla schermata Live MIDI di PianoLed. Se non viene trovato,
+chiudi altre app collegate al pianoforte e riprova.
+
+Questa versione aggiunge ricerca, collegamento e verifica del traffico MIDI.
+Visualizzazione delle note suonate, LED Live MIDI, USB e Attendi nota non
+sono ancora attivi. **Non serve aggiornare il firmware ESP32 per questa fase.**
+La compatibilità radio con ogni modello di telefono e tastiera va provata
+sui dispositivi reali.
+
+## Supporto matrice dalla 0.4.0
 
 Compatibilità con il firmware Android matrice: primo modulo Do1–Si1,
 12 colonne da 10 LED. Riconoscimento automatico del profilo della scheda,
