@@ -1,0 +1,11 @@
+{
+    "schema":  1,
+    "packageName":  "it.pianoled.app",
+    "versionCode":  7,
+    "versionName":  "0.6.0",
+    "minSdk":  26,
+    "size":  78240,
+    "sha256":  "99d463368e8eb4e1f15f7167b0fa742af44b1585741cac97095c3ef6e86f90fa",
+    "apkUrl":  "https://github.com/almahub/pianoled/releases/download/v0.6.0/PianoLed.apk",
+    "releaseNotes":  "Player: tasti MIDI dal vivo in verde e bordo per note sostenute dal pedale. Navigazione Player, Libreria e Impostazioni; aree separate Live MIDI, LED Studio, Connessione ESP32 e App e aggiornamenti. Nessun aggiornamento firmware necessario. Test automatici e Android 16 emulato superati; nuova visualizzazione da provare sul proprio pianoforte."
+}
