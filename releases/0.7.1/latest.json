@@ -1,0 +1,13 @@
+{
+    "schema":  1,
+    "packageName":  "it.pianoled.app",
+    "productName":  "NotaLume",
+    "apkFile":  "NotaLume-0.7.1.apk",
+    "versionCode":  9,
+    "versionName":  "0.7.1",
+    "minSdk":  26,
+    "size":  78300,
+    "sha256":  "235d828cdf536fca9a630111fe9293ec53cf69801d572d5d13968d4e713c9fe8",
+    "apkUrl":  "https://github.com/almahub/pianoled/releases/download/v0.7.1/NotaLume-0.7.1.apk",
+    "releaseNotes":  "PianoLed diventa NotaLume — Music becomes light.\n\nLED Studio e Connessione ESP32 mostrano ora l\u0027estensione e i moduli della matrice, fino a Do1–Do8: 85 note e 850 LED. Il pulsante Avvia test matrice esegue la sequenza delle colonne dichiarate dalla scheda; luminosità massima 15%.\n\nLibreria, brani, mani, playlist, preferiti e impostazioni restano conservati: installare sopra la versione precedente, senza disinstallarla. Stesso pacchetto Android e stessa firma; aggiornamento disponibile anche dalla build locale 0.7.0.\n\nLive MIDI continua a mostrare i tasti suonati nel Player; la matrice segue i brani riprodotti. LED Live MIDI, USB e Attendi nota restano separati e non sono attivati da questa versione.\n\nL\u0027aggiornamento APK non carica firmware sull\u0027ESP32. L\u0027estensione fisica richiede il profilo firmware appropriato, cablaggio e collaudo dei moduli.\n"
+}

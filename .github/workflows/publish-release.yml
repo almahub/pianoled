@@ -31,10 +31,15 @@ jobs:
               assert path.parent.name==version
               assert data['schema']==1 and data['packageName']=='it.pianoled.app'
               assert isinstance(data['versionCode'],int) and data['versionCode']>0
-              apk=path.parent/'PianoLed.apk'
+              # Old releases keep their original immutable asset name and product label.
+              apk_name=data.get('apkFile','PianoLed.apk')
+              product=data.get('productName','PianoLed')
+              assert re.fullmatch(r'[A-Za-z][A-Za-z0-9-]*', product)
+              assert apk_name=='PianoLed.apk' or apk_name==f'{product}-{version}.apk'
+              apk=path.parent/apk_name
               assert apk.stat().st_size==data['size']
               assert hashlib.sha256(apk.read_bytes()).hexdigest()==data['sha256']
-              assert data['apkUrl']==f'https://github.com/almahub/pianoled/releases/download/v{version}/PianoLed.apk'
+              assert data['apkUrl']==f'https://github.com/almahub/pianoled/releases/download/v{version}/{apk_name}'
               releases.append((data['versionCode'],data,path,apk))
           assert len({r[0] for r in releases})==len(releases), 'Duplicate versionCode'
           existing=json.loads(subprocess.check_output(['gh','api','repos/{owner}/{repo}/releases','--paginate','--slurp']))
@@ -49,7 +54,7 @@ jobs:
               notes=path.parent/'notes.txt'
               notes.write_text(data.get('releaseNotes',''),encoding='utf-8')
               if tag not in published:
-                  gh('release','create',tag,'--draft','--target','main','--title','PianoLed '+data['versionName'],'--notes-file',str(notes))
+                  gh('release','create',tag,'--draft','--target','main','--title',data.get('productName','PianoLed')+' '+data['versionName'],'--notes-file',str(notes))
               gh('release','upload',tag,str(apk),str(path),'--clobber')
               gh('release','edit',tag,'--draft=false','--latest')
               highest=numeric

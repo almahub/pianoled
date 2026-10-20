@@ -1,4 +1,23 @@
-# PianoLed per Android
+# NotaLume per Android
+
+**Music becomes light.**
+
+NotaLume è il nuovo nome di PianoLed: stesso package Android, stessa firma e
+stessi dati. La versione 0.7.1 aggiorna anche chi ha installato la build locale
+0.7.0. Il repository e l'indirizzo degli aggiornamenti restano gli stessi.
+
+## Novità 0.7.1
+
+Nome aggiornato nelle schermate, nel launcher, nelle notifiche e nei nuovi APK.
+Libreria, playlist, preferiti, mani, colori e connessioni rimangono conservati.
+LED Studio e Connessione ESP32 mostrano l'estensione della matrice e il numero
+di moduli, fino a **Do1–Do8: 85 note, 850 LED**. Il comando **Avvia test matrice**
+segue tutte le colonne dichiarate dalla scheda. Luminosità limitata al 15%.
+
+Live MIDI continua a visualizzare nel Player i tasti suonati; la matrice segue
+i brani riprodotti. L'APK non aggiorna il firmware dell'ESP32: per passare dal
+primo modulo alla matrice estesa occorre caricare separatamente il profilo
+firmware corrispondente al proprio montaggio.
 
 Scarica l'APK dalla [release piu recente](https://github.com/almahub/pianoled/releases/latest), aprilo sul telefono e conferma l'installazione.
 
@@ -6,7 +25,7 @@ Scarica l'APK dalla [release piu recente](https://github.com/almahub/pianoled/re
 
 Dalla versione 0.2.0, apri **Aggiornamenti** nell'app e abilita le notifiche. Il controllo avviene all'apertura (almeno 15 minuti tra controlli riusciti) e circa ogni 6 ore con Internet. Android puo ritardarlo per risparmiare batteria. Il player funziona offline.
 
-**Aggiorna VERSIONE** scarica l'APK e ne verifica integrita, versione e firma. Android richiede conferma prima di installare. Se richiesto, consenti a PianoLed di installare app, torna alla schermata e premi **Installa**.
+**Aggiorna VERSIONE** scarica l'APK e ne verifica integrita, versione e firma. Android richiede conferma prima di installare. Se richiesto, consenti all’app di installare app, torna alla schermata e premi **Installa**.
 
 La versione 0.1.0 richiede una prima installazione manuale dell'APK recente per abilitare questa funzione. Nella 0.6.0 apri **Impostazioni → App e aggiornamenti → Aggiornamenti** (nelle versioni 0.3–0.5 era direttamente in Impostazioni).
 
@@ -29,22 +48,24 @@ MIDI. Se non compare, chiudi altre app collegate al pianoforte e riprova.
 La ricerca dura 15 secondi. Cambiare sezione mantiene la connessione;
 uscire dall'app la chiude e pulisce i tasti. Al ritorno ricollegare.
 
-**Non serve aggiornare il firmware ESP32.** LED Live MIDI, USB e Attendi nota
+Per la visualizzazione MIDI nel Player non serve un nuovo firmware. LED Live MIDI, USB e Attendi nota
 non sono ancora attivi. Compilazione e test automatici superati; verificati
 ricevitore e interfaccia sull'emulatore Android 16 con MIDI simulato. La prova
 della nuova visualizzazione sul telefono e sul Roland reali resta da effettuare.
 
-## Supporto matrice dalla 0.4.0
+## Matrice modulare Do1–Do8
 
-Compatibilità con il firmware Android matrice: primo modulo Do1–Si1,
-12 colonne da 10 LED. Riconoscimento automatico del profilo della scheda,
-luminosità limitata al 15% e prova del modulo in LED Studio. Le note scendono
+Compatibilità con il firmware Android matrice: da uno a sette moduli di
+12 colonne da 10 LED, più la colonna Do8 finale per un totale di 850 LED.
+Riconoscimento automatico del profilo della scheda, luminosità limitata al
+15% e prova sequenziale in LED Studio. Le note scendono
 con due secondi di anticipo; l'audio parte dopo circa 2,5 secondi di preparazione.
 Le note fuori dal modulo continuano a suonare sul telefono. Rimane supportato
 il firmware Android v2 per la striscia da 176 LED.
 
 Il firmware matrice si installa separatamente via USB: l'aggiornamento APK
-non modifica la scheda. L'estensione a 850 LED non è attivata.
+non modifica la scheda. Configurare il firmware per i moduli effettivamente
+collegati e collaudare progressivamente montaggio e alimentazione.
 
 ## Funzioni del Player e Studio
 
@@ -65,6 +86,10 @@ Questa funzione aggiorna l'app Android; il firmware ESP32 non viene modificato.
 
 ## Pubblicare una versione
 
-Lo sviluppatore compila e firma localmente con la chiave originale. Aggiunge una nuova cartella `releases/VERSIONE/` con `PianoLed.apk` e `latest.json`. GitHub Actions verifica dimensione e SHA-256 e pubblica entrambi in una release prima in bozza, poi visibile. Le release gia pubblicate non vengono sovrascritte.
+Lo sviluppatore compila e firma localmente con la chiave originale. Aggiunge
+una nuova cartella `releases/VERSIONE/` con `NotaLume-VERSIONE.apk` e
+`latest.json`. GitHub Actions verifica dimensione e SHA-256 e pubblica prima
+in bozza, poi rende disponibile la release. Le vecchie release mantengono
+il loro file `PianoLed.apk` e non vengono sovrascritte.
 
 Il telefono consulta `https://github.com/almahub/pianoled/releases/latest/download/latest.json`.
