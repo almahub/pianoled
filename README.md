@@ -3,14 +3,37 @@
 **Music becomes light.**
 
 NotaLume è il nuovo nome di PianoLed: stesso package Android, stessa firma e
-stessi dati. La versione 0.7.1 aggiorna anche chi ha installato la build locale
+stessi dati. La versione 0.8.0 aggiorna anche chi ha installato la build locale
 0.7.0. Il repository e l'indirizzo degli aggiornamenti restano gli stessi.
+
+## Novità 0.8.0
+
+**LED Studio** permette di provare ogni matrice separatamente: Do1–Si1 fino
+a Do7–Si7, colonna Do8 oppure tutte le matrici. La lista segue il profilo
+del dispositivo collegato.
+
+Due nuovi **effetti test**, senza audio:
+
+- **Arcobaleno**: onde multicolore sulle dieci righe, continue tra i moduli.
+- **Kit**: punto rosso con scia sulla riga vicina ai tasti, da sinistra a destra
+  e ritorno.
+
+Gli effetti seguono la matrice selezionata, durano 30 secondi e si fermano con
+**Ferma test**, uscendo da LED Studio, sospendendo l'app o perdendo la connessione.
+Rimane il limite di luminosità al 15%.
+Richiedono il firmware matrice revisione 3 con supporto LED Studio; l'APK non
+aggiorna il firmware via Wi-Fi. Con il firmware precedente rimangono disponibili
+player e test sequenziale dei moduli.
+
+Le diciture di collegamento ora sono **Connessione a NotaLume**,
+**Trova NotaLume** e **NotaLume connesso**. Indirizzi di rete e ricerca restano
+compatibili.
 
 ## Novità 0.7.1
 
 Nome aggiornato nelle schermate, nel launcher, nelle notifiche e nei nuovi APK.
 Libreria, playlist, preferiti, mani, colori e connessioni rimangono conservati.
-LED Studio e Connessione ESP32 mostrano l'estensione della matrice e il numero
+LED Studio e l'area Connessione mostrano l'estensione della matrice e il numero
 di moduli, fino a **Do1–Do8: 85 note, 850 LED**. Il comando **Avvia test matrice**
 segue tutte le colonne dichiarate dalla scheda. Luminosità limitata al 15%.
 
@@ -39,7 +62,7 @@ Il suono continua a uscire dal pianoforte.
 
 Le sezioni principali sono **Player, Libreria e Impostazioni**. Dentro
 Impostazioni trovi quattro aree: **Live MIDI**, **LED Studio**,
-**Connessione ESP32**, **App e aggiornamenti**.
+**Connessione a NotaLume**, **App e aggiornamenti**.
 
 Per collegare la tastiera: **Impostazioni → Live MIDI → Cerca tastiere**,
 consenti **Dispositivi nelle vicinanze**, scegli **Collega** e torna al Player.

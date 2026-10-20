@@ -1,0 +1,13 @@
+{
+    "schema":  1,
+    "packageName":  "it.pianoled.app",
+    "productName":  "NotaLume",
+    "apkFile":  "NotaLume-0.8.0.apk",
+    "versionCode":  10,
+    "versionName":  "0.8.0",
+    "minSdk":  26,
+    "size":  82396,
+    "sha256":  "31be3c501195f62bfb8609d8b833697296bb79c1c712d8f7e1b949f78e517467",
+    "apkUrl":  "https://github.com/almahub/pianoled/releases/download/v0.8.0/NotaLume-0.8.0.apk",
+    "releaseNotes":  "LED Studio: scegli tutte le matrici, un modulo Do1–Si1 ... Do7–Si7 oppure la colonna Do8.\nNuovi effetti test Arcobaleno, con onde multicolore, e Kit, con punto rosso e scia avanti e indietro. Seguono la matrice selezionata, senza audio, per 30 secondi.\nFerma test, uscita da LED Studio, sospensione e disconnessione arrestano gli effetti. Limite di luminosità al 15%.\nConnessione ESP32 diventa Connessione a NotaLume; ricerca, badge e messaggi usano il nome NotaLume.\nGli effetti richiedono il firmware matrice revisione 3, da installare separatamente sulla scheda. Player e test sequenziale restano compatibili con il firmware precedente.\nAggiornamento con la stessa firma: installa sopra la versione precedente per conservare libreria e impostazioni.\n"
+}
