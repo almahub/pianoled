@@ -1,0 +1,13 @@
+{
+    "schema":  1,
+    "packageName":  "it.pianoled.app",
+    "productName":  "NotaLume",
+    "apkFile":  "NotaLume-0.8.1.apk",
+    "versionCode":  11,
+    "versionName":  "0.8.1",
+    "minSdk":  26,
+    "size":  82485,
+    "sha256":  "f73f4cd28228f0b20b372ed901e5fc819ad3671a411347a741645d130ec45dad",
+    "apkUrl":  "https://github.com/almahub/pianoled/releases/download/v0.8.1/NotaLume-0.8.1.apk",
+    "releaseNotes":  "Aggiunto automaticamente alla libreria: C1 - Scala cromatica e piccolo brano (12 s).\nScala cromatica con tutti i 12 tasti Do1-Si1, seguita da una breve melodia nella prima ottava. A velocità 100% dura 12 secondi, circa 14,5 con l\u0027anticipo LED. Lascia entrambe le mani attive.\nDisponibile anche aggiornando una libreria esistente, senza cancellare brani o impostazioni e senza duplicare il file già importato. Se elimini il brano non ricompare a ogni avvio.\nNon serve un nuovo firmware per questo brano: il firmware matrice revisione 3 è compatibile.\nInstalla sopra la versione precedente, senza disinstallare.\n"
+}

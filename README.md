@@ -3,8 +3,20 @@
 **Music becomes light.**
 
 NotaLume è il nuovo nome di PianoLed: stesso package Android, stessa firma e
-stessi dati. La versione 0.8.0 aggiorna anche chi ha installato la build locale
+stessi dati. La versione 0.8.1 aggiorna anche chi ha installato la build locale
 0.7.0. Il repository e l'indirizzo degli aggiornamenti restano gli stessi.
+
+## Novità 0.8.1
+
+La libreria include automaticamente **C1 - Scala cromatica e piccolo brano
+(12 s)**, anche aggiornando un'app già installata. Prima vengono suonati tutti
+i dodici tasti Do1–Si1, poi una breve melodia nella stessa ottava.
+A velocità 100% dura 12 secondi, circa 14,5 includendo la preparazione LED.
+Lasciare attive entrambe le mani per ascoltare scala e melodia.
+
+Il brano viene aggiunto una sola volta; se lo elimini non viene ripristinato
+a ogni avvio. Libreria, preferiti, playlist e assegnazioni esistenti restano
+conservati. Non serve un nuovo firmware per aggiungere il brano.
 
 ## Novità 0.8.0
 
