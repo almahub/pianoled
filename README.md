@@ -3,8 +3,21 @@
 **Music becomes light.**
 
 NotaLume è il nuovo nome di PianoLed: stesso package Android, stessa firma e
-stessi dati. La versione 0.8.1 aggiorna anche chi ha installato la build locale
+stessi dati. La versione 0.8.2 aggiorna anche chi ha installato la build locale
 0.7.0. Il repository e l'indirizzo degli aggiornamenti restano gli stessi.
+
+## Novità 0.8.2
+
+Corretta la gestione della fine del brano, che poteva causare una falsa
+disconnessione. Ridotti i comandi ripetuti e le trasmissioni LED inutili.
+La gestione completa richiede il firmware NotaLume **revisione 4**,
+installato separatamente: l'APK non aggiorna il firmware.
+
+In **Impostazioni → LED Studio → Inverti verso LED** puoi correggere le
+colonne che scorrono verso l'alto. La scelta vale per tutti i moduli e viene
+salvata sulla scheda. Se il verso è errato solo su alcune colonne, occorre
+verificare la serpentina fisica. Installa l'APK prima di invertire il verso:
+le versioni precedenti non riconoscono il profilo invertito.
 
 ## Novità 0.8.1
 

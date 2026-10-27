@@ -1,0 +1,13 @@
+{
+    "schema":  1,
+    "packageName":  "it.pianoled.app",
+    "productName":  "NotaLume",
+    "apkFile":  "NotaLume-0.8.2.apk",
+    "versionCode":  12,
+    "versionName":  "0.8.2",
+    "minSdk":  26,
+    "size":  82485,
+    "sha256":  "ae6d8d9c76dd0a4d88e5f5d530fe635114ed90089e7ff5100614194d6deb9193",
+    "apkUrl":  "https://github.com/almahub/pianoled/releases/download/v0.8.2/NotaLume-0.8.2.apk",
+    "releaseNotes":  "Corretta la gestione della fine del brano per evitare false disconnessioni: richiede firmware NotaLume revisione 4 per la gestione completa.\nLED Studio: nuovo pulsante Inverti verso LED. L\u0027orientamento viene salvato sulla scheda e conservato dopo riavvio.\nRidotti i comandi ripetuti al termine dei brani. Brani, preferenze e assegnazioni delle mani conservati.\nIl firmware si aggiorna separatamente dall\u0027APK. Installare sopra la versione precedente, senza disinstallare.\n"
+}
