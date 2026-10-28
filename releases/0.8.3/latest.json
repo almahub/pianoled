@@ -1,0 +1,13 @@
+{
+    "schema":  1,
+    "packageName":  "it.pianoled.app",
+    "productName":  "NotaLume",
+    "apkFile":  "NotaLume-0.8.3.apk",
+    "versionCode":  13,
+    "versionName":  "0.8.3",
+    "minSdk":  26,
+    "size":  82485,
+    "sha256":  "2f58afb1a490a680bf9f995ad96101ced5c9bcaaac8bd58f20163b770446eb14",
+    "apkUrl":  "https://github.com/almahub/pianoled/releases/download/v0.8.3/NotaLume-0.8.3.apk",
+    "releaseNotes":  "Corretta la mappatura per il cablaggio reale: ogni colonna ha 10 LED e parte dall\u0027alto (1-10, 11-20, 21-30), senza inversione alternata.\nRichiede il firmware matrice revisione 5, aggiornato separatamente dall\u0027APK. L\u0027app continua a riconoscere i profili precedenti.\nTest matrice più chiaro: una colonna alla volta, una nota ogni tre secondi, senza sovrapposizione dell\u0027anticipo LED.\nInstallare sopra la versione precedente, senza disinstallare. Brani, impostazioni e assegnazioni conservati.\n"
+}

@@ -3,8 +3,19 @@
 **Music becomes light.**
 
 NotaLume è il nuovo nome di PianoLed: stesso package Android, stessa firma e
-stessi dati. La versione 0.8.2 aggiorna anche chi ha installato la build locale
+stessi dati. La versione 0.8.3 aggiorna anche chi ha installato la build locale
 0.7.0. Il repository e l'indirizzo degli aggiornamenti restano gli stessi.
+
+## Novità 0.8.3
+
+Corretta la mappatura del modulo: LED 1–10 nella prima colonna, 11–20 nella
+seconda, 21–30 nella terza, **tutti dall'alto verso il basso**. Il firmware
+matrice revisione 5 usa questo cablaggio, senza inversione delle colonne
+alternate. Installare l'app 0.8.3 per riconoscere il nuovo profilo.
+
+Il test matrice ora mostra **una colonna alla volta**, una nota ogni tre
+secondi reali, per distinguere chiaramente ciascuna nota. Il firmware si
+aggiorna separatamente dall'APK; libreria e impostazioni restano conservate.
 
 ## Novità 0.8.2
 
