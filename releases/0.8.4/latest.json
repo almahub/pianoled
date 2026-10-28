@@ -1,0 +1,13 @@
+{
+    "schema":  1,
+    "packageName":  "it.pianoled.app",
+    "productName":  "NotaLume",
+    "apkFile":  "NotaLume-0.8.4.apk",
+    "versionCode":  14,
+    "versionName":  "0.8.4",
+    "minSdk":  26,
+    "size":  82485,
+    "sha256":  "d659d5458bec9f2bb840b9b66b7cb6c9a5235ff89e4eef29760987c555b27ad2",
+    "apkUrl":  "https://github.com/almahub/pianoled/releases/download/v0.8.4/NotaLume-0.8.4.apk",
+    "releaseNotes":  "Rimosso il riquadro Verso delle colonne da LED Studio.\nFirmware matrice revisione 6: invertite solo le colonne dei tasti neri (Do#, Re#, Fa#, Sol#, La#); bianchi invariati. Il firmware si aggiorna separatamente dall\u0027APK.\nTest matrice una colonna alla volta, tre secondi per nota. Installare sopra la versione precedente senza disinstallare, conservando brani e impostazioni.\n"
+}
