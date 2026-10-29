@@ -3,10 +3,27 @@
 **Music becomes light.**
 
 NotaLume è il nuovo nome di PianoLed: stesso package Android, stessa firma e
-stessi dati. La versione 0.8.4 aggiorna anche chi ha installato la build locale
-0.7.0. Il repository e l'indirizzo degli aggiornamenti restano gli stessi.
+stessi dati. La versione 0.8.9 si installa sopra le versioni precedenti senza
+disinstallarle. Il repository e l'indirizzo degli aggiornamenti restano gli stessi.
 
-## Novità 0.8.4
+## Novità 0.8.9
+
+- Corretta la disconnessione ingiustificata dopo errori audio locali: il brano
+  si ferma, ma la connessione sana resta disponibile. Nessuna ripartenza automatica.
+- Maggiore riserva audio e diagnostica con comando, tempi di risposta e causa
+  dell'interruzione. La risoluzione di ogni blocco sul telefono resta da verificare.
+- Ripetizione A–B con conteggio, impostazioni per brano, audio e guida separati
+  per mano, calibrazione audio/LED per uscita e backup della libreria.
+- LED Studio: test «Tutte insieme, poi scala» e «LED in cima · 1 minuto».
+
+Firmware matrice attuale: revisione 9, serpentina alternata per colonna,
+indipendente dal colore del tasto. Il test della fila superiore richiede il
+relativo comando firmware. L'APK non aggiorna il firmware della scheda.
+
+APK firmato e verificato, test host e 41 controlli Android 16 emulato superati.
+Installare sopra la versione precedente per conservare brani e impostazioni.
+
+## Novità 0.8.4 (storico, mappatura superata dalla revisione 9)
 
 Rimosso il riquadro **Verso delle colonne** da LED Studio. Il firmware matrice
 revisione 6 inverte soltanto le colonne dei tasti neri, mantenendo i bianchi

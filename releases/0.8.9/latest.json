@@ -1,0 +1,13 @@
+{
+    "schema":  1,
+    "packageName":  "it.pianoled.app",
+    "productName":  "NotaLume",
+    "apkFile":  "NotaLume-0.8.9.apk",
+    "versionCode":  19,
+    "versionName":  "0.8.9",
+    "minSdk":  26,
+    "size":  98869,
+    "sha256":  "4f9cd7cd7510afe66995ee6fe6ff1aa0574ec0bf18f094bc4b44a183645e1d07",
+    "apkUrl":  "https://github.com/almahub/pianoled/releases/download/v0.8.9/NotaLume-0.8.9.apk",
+    "releaseNotes":  "NotaLume 0.8.9\n\nCorretta la disconnessione ingiustificata dopo errori audio locali: il brano viene fermato, ma il collegamento resta disponibile se la scheda risponde. Aumentata la riserva audio e migliorata la diagnostica dei tempi di risposta. La stabilità sul singolo telefono resta da confermare.\n\nInclude le migliorie delle build locali 0.8.5–0.8.8: visualizzazione sincronizzata con l\u0027anticipo LED, calibrazione per uscita audio, ripetizione A–B con conteggio, impostazioni per brano, audio e guida separati per mano, backup della libreria, test «Tutte insieme, poi scala» e «LED in cima · 1 minuto».\n\nInstallare sopra la versione precedente senza disinstallare: stesso package e firma. L\u0027APK non aggiorna il firmware. La mappatura a serpentina è gestita dal firmware revisione 9; il test della fila superiore richiede il relativo supporto sulla scheda.\n\nCompilazione e firma verificate, test host pertinenti e 41 verifiche Android 16 emulato superati. Nessuna ripartenza automatica dopo un\u0027interruzione.\n"
+}
