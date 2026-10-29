@@ -1,0 +1,13 @@
+{
+    "schema":  1,
+    "packageName":  "it.pianoled.app",
+    "productName":  "NotaLume",
+    "apkFile":  "NotaLume-0.9.0.apk",
+    "versionCode":  20,
+    "versionName":  "0.9.0",
+    "minSdk":  26,
+    "size":  102965,
+    "sha256":  "5609fbd3d7e1896256bd54c39620213ce4966c9f150a743ea9767ba83bef6598",
+    "apkUrl":  "https://github.com/almahub/pianoled/releases/download/v0.9.0/NotaLume-0.9.0.apk",
+    "releaseNotes":  "Nuove sezioni Player, Live, Light e Libreria; Impostazioni a ingranaggio. Live mostra note e pedale e accende le colonne con firmware revisione 10. Arcobaleno e Kit in Light. Installare sopra la versione precedente; il firmware si aggiorna separatamente."
+}
