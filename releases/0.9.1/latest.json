@@ -1,0 +1,13 @@
+{
+    "schema":  1,
+    "packageName":  "it.pianoled.app",
+    "productName":  "NotaLume",
+    "apkFile":  "NotaLume-0.9.1.apk",
+    "versionCode":  21,
+    "versionName":  "0.9.1",
+    "minSdk":  26,
+    "size":  2863835,
+    "sha256":  "3fd803524973dda9aa7ad4d9530a3d22505eb77b967e5f95a7612dd25a02e370",
+    "apkUrl":  "https://github.com/almahub/pianoled/releases/download/v0.9.1/NotaLume-0.9.1.apk",
+    "releaseNotes":  "Nuova Home NotaLume con tre schede Player, Live e Light, logo e icone originali. Libreria condivisa e Impostazioni a ingranaggio. Nessun aggiornamento firmware necessario. La disconnessione Live con LED attivi resta in diagnosi e non e corretta in questa versione."
+}

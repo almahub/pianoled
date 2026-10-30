@@ -3,8 +3,20 @@
 **Music becomes light.**
 
 NotaLume è il nuovo nome di PianoLed: stesso package Android, stessa firma e
-stessi dati. La versione 0.9.0 si installa sopra le versioni precedenti senza
+stessi dati. La versione 0.9.1 si installa sopra le versioni precedenti senza
 disinstallarle. Il repository e l'indirizzo degli aggiornamenti restano gli stessi.
+
+## Novità 0.9.1
+
+- Nuova Home con logo e tre schede principali: Player, Live e Light.
+- Libreria condivisa e Impostazioni discrete, accessibili dalle tre modalità.
+- Icone originali NotaLume, palette ciano/ambra e layout adattabile
+  all'orientamento del telefono.
+
+Non richiede aggiornamento firmware: resta compatibile con la revisione 10.
+La disconnessione segnalata in Live con LED attivi è ancora in diagnosi e
+**non è risolta da questa versione**, dedicata alla Home e alla navigazione.
+Installare sopra la versione precedente senza disinstallare.
 
 ## Novità 0.9.0
 
