@@ -1,0 +1,13 @@
+{
+    "schema":  1,
+    "packageName":  "it.pianoled.app",
+    "productName":  "NotaLume",
+    "apkFile":  "NotaLume-0.10.0.apk",
+    "versionCode":  22,
+    "versionName":  "0.10.0",
+    "minSdk":  26,
+    "size":  2867931,
+    "sha256":  "295ac0a2b2b69a859ee4086278b74fc807078d35689e0d6d6a1aca9cde3bfc4c",
+    "apkUrl":  "https://github.com/almahub/pianoled/releases/download/v0.10.0/NotaLume-0.10.0.apk",
+    "releaseNotes":  "NotaLume 0.10.0 — nuova interfaccia nativa\n\nHome e cinque destinazioni inferiori: Player, Live, Light, Libreria e Impostazioni.\nPlayer con Studio dedicato e vista espansa orizzontale; zoom e preferenze musicali conservati.\nLive con stato Bluetooth, tasti premuti e note al pedale.\nLight con anteprime, Arcobaleno/Kit, Avvia/Arresta e luminosità.\nDettagli dei brani e impostazioni organizzate; layout adattivo e caratteri ingranditi.\n\nInstalla sopra la versione precedente senza disinstallare: stessa firma, brani e impostazioni conservati.\nNon serve aggiornare il firmware: compatibilità con revisione 10 mantenuta.\nCompilazione, test automatici e prove Android 16 emulato superati, incluso aggiornamento dalla 0.9.1. Nuova UI non ancora provata su telefono e hardware fisico.\nIl precedente problema di disconnessione Live resta aperto e non è corretto da questo aggiornamento. Registrazione MIDI e nuovi effetti restano futuri.\n"
+}
