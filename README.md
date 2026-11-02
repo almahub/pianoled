@@ -3,8 +3,20 @@
 **Music becomes light.**
 
 NotaLume è il nuovo nome di PianoLed: stesso package Android, stessa firma e
-stessi dati. La versione 0.10.2 si installa sopra le versioni precedenti senza
+stessi dati. La versione 0.10.3 si installa sopra le versioni precedenti senza
 disinstallarle. Il repository e l'indirizzo degli aggiornamenti restano gli stessi.
+
+## Novità 0.10.3
+
+- Montaggio completo corretto: sette moduli Do1–Si7, 84 colonne, 840 LED WS2812B.
+  Nessuna colonna Do8 aggiuntiva.
+- Testi e indicazioni LED Studio allineati; il vecchio profilo da 850 LED viene
+  riconosciuto e segnalato come precedente. Audio e tastiera mantengono 88 tasti.
+- Firmware matrice revisione 11 da 840 LED disponibile separatamente: l'APK
+  non carica firmware. L'app rimane compatibile con la revisione 10.
+- Conservate le correzioni Live, ricerca e icone della 0.10.2.
+
+Stesso APK della prova locale 0.10.3; chi lo ha già installato non deve reinstallare.
 
 ## Novità 0.10.2
 

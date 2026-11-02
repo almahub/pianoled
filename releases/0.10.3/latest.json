@@ -1,0 +1,13 @@
+{
+    "schema":  1,
+    "packageName":  "it.pianoled.app",
+    "productName":  "NotaLume",
+    "apkFile":  "NotaLume-0.10.3.apk",
+    "versionCode":  25,
+    "versionName":  "0.10.3",
+    "minSdk":  26,
+    "size":  3843029,
+    "sha256":  "041142a98849b1e31a73957d6385315104efb81e2a0b4ef5a92cf6323c7b7a83",
+    "apkUrl":  "https://github.com/almahub/pianoled/releases/download/v0.10.3/NotaLume-0.10.3.apk",
+    "releaseNotes":  "Montaggio completo corretto: 7 moduli Do1–Si7, 84 colonne, 840 LED WS2812B. Nessuna colonna Do8 aggiuntiva.\nTesti LED Studio aggiornati; il precedente profilo da 850 LED viene riconosciuto e segnalato. Audio, brani e tastiera virtuale conservano gli 88 tasti.\nFirmware matrice revisione 11 da 840 LED separato dall\u0027APK; aggiornamento firmware non automatico. Compatibilità con revisione 10 mantenuta.\nConservate correzione Live, icone e ricerca NotaLume della 0.10.2.\nStessa firma e dati conservati: installare senza disinstallare. Identico all\u0027APK locale 0.10.3 già consegnato.\n"
+}
