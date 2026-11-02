@@ -1,0 +1,13 @@
+{
+    "schema":  1,
+    "packageName":  "it.pianoled.app",
+    "productName":  "NotaLume",
+    "apkFile":  "NotaLume-0.10.1.apk",
+    "versionCode":  23,
+    "versionName":  "0.10.1",
+    "minSdk":  26,
+    "size":  2867931,
+    "sha256":  "066676d2853a82fe9156d0be3ada16f3650c3c70a5f055e0d19585aa29dd7bcc",
+    "apkUrl":  "https://github.com/almahub/pianoled/releases/download/v0.10.1/NotaLume-0.10.1.apk",
+    "releaseNotes":  "NotaLume 0.10.1 — navigazione semplificata\n\nRimossa la barra inferiore da tutte le schermate, lasciando più spazio al contenuto.\nNella Home Impostazioni è accessibile soltanto dall\u0027ingranaggio in alto a destra.\nUsa Home in alto per scegliere Player, Live, Light o Libreria. Nella vista espansa, premi Riduci per ritrovare la toolbar.\n\nInstalla sopra la versione precedente senza disinstallare: firma, brani e impostazioni conservati.\nNon serve aggiornare il firmware: resta compatibile con revisione 10.\nIl precedente problema di disconnessione Live resta aperto; questo aggiornamento riguarda solo la navigazione.\n"
+}

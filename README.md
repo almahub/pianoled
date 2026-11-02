@@ -3,8 +3,19 @@
 **Music becomes light.**
 
 NotaLume è il nuovo nome di PianoLed: stesso package Android, stessa firma e
-stessi dati. La versione 0.10.0 si installa sopra le versioni precedenti senza
+stessi dati. La versione 0.10.1 si installa sopra le versioni precedenti senza
 disinstallarle. Il repository e l'indirizzo degli aggiornamenti restano gli stessi.
+
+## Novità 0.10.1
+
+- Rimossa la barra di navigazione inferiore da tutte le schermate.
+- Nella Home rimane soltanto l'ingranaggio in alto a destra per Impostazioni.
+- Per scegliere Player, Live, Light o Libreria si usa Home in alto.
+- Più spazio per note e tastiera. Nella vista espansa, Riduci riporta alla toolbar.
+
+Stessa firma e dati conservati: installare senza disinstallare.
+Firmware revisione 10 invariato; non serve aggiornarlo.
+Il precedente problema di disconnessione Live non è corretto da questa modifica.
 
 ## Novità 0.10.0
 
