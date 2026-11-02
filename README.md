@@ -3,8 +3,20 @@
 **Music becomes light.**
 
 NotaLume è il nuovo nome di PianoLed: stesso package Android, stessa firma e
-stessi dati. La versione 0.10.1 si installa sopra le versioni precedenti senza
+stessi dati. La versione 0.10.2 si installa sopra le versioni precedenti senza
 disinstallarle. Il repository e l'indirizzo degli aggiornamenti restano gli stessi.
+
+## Novità 0.10.2
+
+- Live: lettura MIDI indipendente dal refresh grafico, per evitare arresti dei
+  LED causati da ritardi dell'interfaccia. Conservati gli arresti di sicurezza.
+- Icona Android NotaLume e icone delle Impostazioni più grandi.
+- Trova NotaLume con risultato verde/rosso e Connetti dopo il ritrovamento;
+  indirizzo manuale disponibile in una finestra dedicata.
+
+Build e test automatici/emulati superati. La stabilità Live resta da confermare
+sul telefono con tastiera e LED reali. Firmware revisione 10 invariato.
+Chi ha già installato l'APK locale 0.10.2 possiede la stessa build.
 
 ## Novità 0.10.1
 

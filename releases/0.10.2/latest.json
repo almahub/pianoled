@@ -1,0 +1,13 @@
+{
+    "schema":  1,
+    "packageName":  "it.pianoled.app",
+    "productName":  "NotaLume",
+    "apkFile":  "NotaLume-0.10.2.apk",
+    "versionCode":  24,
+    "versionName":  "0.10.2",
+    "minSdk":  26,
+    "size":  3843029,
+    "sha256":  "d0d1c1bb05374d391e0b6e03a2bd27caa7ee902170ca9e93dd8b50a49e31a3f1",
+    "apkUrl":  "https://github.com/almahub/pianoled/releases/download/v0.10.2/NotaLume-0.10.2.apk",
+    "releaseNotes":  "Live: lettura MIDI indipendente dal refresh dello schermo, per evitare spegnimenti causati dai ritardi dell\u0027interfaccia. Restano gli arresti di sicurezza su scollegamento, uscita da Live e sospensione.\nNuova icona Android NotaLume e icone delle Impostazioni ingrandite.\nTrova NotaLume: risultato verde/rosso e pulsante Connetti dopo il ritrovamento; connessione manuale in una finestra dedicata.\nTest automatici ed emulati superati; stabilità Live da confermare sul telefono con tastiera e LED reali.\nFirmware revisione 10 invariato. Installare senza disinstallare. Identica all\u0027APK locale 0.10.2 già consegnato.\n"
+}
